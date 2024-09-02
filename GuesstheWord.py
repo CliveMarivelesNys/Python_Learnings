@@ -21,7 +21,7 @@ def guess_interface():
     random_letters = generate_random_letters()
 
     print(
-        f"Random 3 letter combination: {random_letters}")  # For testing purposes, you can hide this in actual gameplay
+        f"Random 3 letter combination: {random_letters}")
     print("Random 3 letter known: _ _ _")
 
     while score > 0:
