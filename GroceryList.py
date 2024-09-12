@@ -37,6 +37,6 @@ def grocerylist_changeinformation(index):
         print("The database is empty.")
     else:
         itemlookup = index - 1
-        grocery_name[itemlookup] = 
+        # grocery_name[itemlookup] =
 
 grocerylist_interface()

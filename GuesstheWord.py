@@ -40,4 +40,3 @@ def guess_interface():
     if score == 0:
         print("Game Over")
         print(f"Score: {score}")
-

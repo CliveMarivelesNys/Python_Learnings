@@ -1,5 +1,7 @@
+import ArrayEditer
 import GuesstheWord
 import StudentDatabase
+import StudentEnrollment
 from Database import *
 
 
@@ -14,6 +16,8 @@ def OptionsMenu():
     4) Greater or Less than
     5) Student Database
     6) Guess the Word
+    7) Array Editor
+    8) Student Enrollment
     0) Exit Program
     """)
 
@@ -37,10 +41,17 @@ def OptionsMenu():
     elif choice == 6:
         print("Random word guesser")
         GuesstheWord.guess_interface()
+    elif choice == 7:
+        print("Array Editor")
+        ArrayEditer.interface_arrayediter()
+    elif choice == 8:
+        print("Student Database")
+        StudentEnrollment.interface_studentenrollment()
     elif choice == 0:
         print('Exiting Program')
     else:
         print('input not on the list')
+
 
 
 
